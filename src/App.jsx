@@ -100,6 +100,7 @@ export default function App() {
         .select("sku, date, sales")
         .order("date", { ascending: true })
         .limit(5000);
+      // update
 
       if (error) throw error;
 
