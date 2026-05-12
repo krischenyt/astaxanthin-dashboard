@@ -129,6 +129,7 @@ export default function App() {
   }, [loadData]);
 
   // ── Save data + auto-cleanup (keep last 365 days per SKU) ────
+  //update
   const handleSave = useCallback(async () => {
     const rows = [];
     SKUs.forEach(({ key }) => {
