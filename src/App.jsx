@@ -41,6 +41,7 @@ function fmt(n) { return (n || 0).toLocaleString(); }
 function fmtDate(d) { return d ? d.slice(5) : ""; }
 
 // ── Styles ────────────────────────────────────────────────────
+//update
 const s = {
   root: { background: "#0a0f1e", minHeight: "100vh", fontFamily: "'DM Sans', sans-serif", color: "#e2e8f0" },
   hdr: { background: "linear-gradient(135deg,#111827,#0a0f1e)", borderBottom: "1px solid #1e3a5f", padding: "18px 24px", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 12 },
