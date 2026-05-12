@@ -115,7 +115,7 @@ export default function App() {
     }
     setLoading(false);
   }, []);
-  #update
+  //update
 
   useEffect(() => {
     loadData();
