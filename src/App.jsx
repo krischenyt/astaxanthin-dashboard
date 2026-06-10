@@ -8,7 +8,7 @@ const SKUs = [
   { key: "12mg_90",  label: "90ct",  color: "#6366f1", asp: 29.38 },
   { key: "12mg_120", label: "120ct", color: "#ef4444", asp: 34.24 },
 ];
-
+// ── Helpers ───────────────────────────────────────────────────
 // ── Helpers ───────────────────────────────────────────────────
 function buildLookup(data) {
   const m = {};
